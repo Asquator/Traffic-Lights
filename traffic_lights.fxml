@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane prefHeight="815.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.TrafficController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="topTrafficRed" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="topTrafficGreen" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="topPedestrianRed" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+            <Rectangle fx:id="topPedestrianGreen" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+         </children>
+      </VBox>
+   </top>
+   <left>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="leftTrafficRed" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="leftTrafficGreen" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="leftPedestrianRed" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+            <Rectangle fx:id="leftPedestrianGreen" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="rightTrafficRed" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="rightTrafficGreen" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="rightPedestrianRed" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+            <Rectangle fx:id="rightPedestrianGreen" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="bottomTrafficRed" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="bottomTrafficGreen" fill="#ffffff0a" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="bottomPedestrianRed" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+            <Rectangle fx:id="bottomPedestrianGreen" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
