@@ -3,7 +3,7 @@ import javafx.fxml.FXML;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
-import static com.example.demo1.TrafficApplication.delay;
+import static TrafficApplication.delay;
 
 public class TrafficController {
 
